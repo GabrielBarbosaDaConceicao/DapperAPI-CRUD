@@ -18,7 +18,7 @@ namespace API.Repositories
         {
             using (var conn = _db.Connection)
             {
-                string query = "SELECT * FROM Tarefas";
+                string query = @"SELECT * FROM Tarefas";
                 List<Tarefa> tarefas = (await conn.QueryAsync<Tarefa>(sql: query)).ToList();
                 return tarefas;
             }
@@ -28,7 +28,7 @@ namespace API.Repositories
         {
             using (var conn = _db.Connection)
             {
-                string query = "SELECT * FROM Tarefas WHERE Id = @id";
+                string query = @"SELECT * FROM Tarefas WHERE Id = @id";
                 var tarefa = await conn.QueryFirstOrDefaultAsync<Tarefa>(query, new { Id = id});
                 return tarefa;
             }
@@ -38,7 +38,17 @@ namespace API.Repositories
         {
             using (var conn = _db.Connection)
             {
-                string command = "INSERT INTO Tarefas(Descricao, IsCompleta) VALUES(@Descricao, @IsCompleta)";
+                string command = @"INSERT INTO Tarefas(Descricao, IsCompleta) VALUES(@Descricao, @IsCompleta)";
+                int response = await conn.ExecuteAsync(command, tarefa);
+                return response;
+            }
+        }
+
+        public async Task<int> UpdateTarefaAsync(Tarefa tarefa)
+        {
+            using (var conn = _db.Connection)
+            {
+                string command = @"UPDATE Tarefas SET Descricao = @Descricao, IsCompleta = @IsCompleta WHERE Id = @id";
                 int response = await conn.ExecuteAsync(command, tarefa);
                 return response;
             }

@@ -1,8 +1,24 @@
 [
   {
     "ContainingType": "API.Controllers.TarefasController",
+    "Method": "UpdateteTarefaAsync",
+    "RelativePath": "api/v1/Tarefa/AtualizarTarefa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefa",
+        "Type": "API.Domain.Entitites.Tarefa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.TarefasController",
     "Method": "GetTarefaByIdAsync",
-    "RelativePath": "api/v1/tarefa/{id}",
+    "RelativePath": "api/v1/Tarefa/BuscarTarefaPorId/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +44,7 @@
   {
     "ContainingType": "API.Controllers.TarefasController",
     "Method": "SaveAsync",
-    "RelativePath": "api/v1/tarefa/save",
+    "RelativePath": "api/v1/Tarefa/CriarTarefa",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -44,7 +60,7 @@
   {
     "ContainingType": "API.Controllers.TarefasController",
     "Method": "GetTarefasAsync",
-    "RelativePath": "api/v1/tarefas",
+    "RelativePath": "api/v1/Tarefa/TodasAsTarefas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

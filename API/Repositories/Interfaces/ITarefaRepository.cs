@@ -8,7 +8,7 @@ namespace API.Repositories.Interfaces
         Task<Tarefa> GetTarefaByIdAsync(int id);
         //Task<TarefaContainer> GetTarefasEContainerAsync();
         Task<int> SaveAsync(Tarefa novaTarefa);
-        //Task<int> UpdateTarefaStatusAsync(Tarefa atualizaTarefa);
+        Task<int> UpdateTarefaAsync(Tarefa tarefa);
         //Task<int> DeleteAsync(int id);
     }
 }

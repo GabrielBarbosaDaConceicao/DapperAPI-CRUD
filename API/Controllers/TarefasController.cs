@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("api/v1")]
+    [Route("api/v1/Tarefa")]
     [ApiController]
     public class TarefasController : ControllerBase
     {
@@ -16,7 +16,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        [Route("tarefas")]
+        [Route("TodasAsTarefas")]
         public async Task<IActionResult> GetTarefasAsync()
         {
             var result = await _tarefaRepo.GetTarefasAsync();
@@ -24,20 +24,21 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        [Route("tarefa/{id}")]
+        [Route("BuscarTarefaPorId/{id}")]
         public async Task<ActionResult<Tarefa>> GetTarefaByIdAsync(int id)
         {
             var tarefa = await _tarefaRepo.GetTarefaByIdAsync(id);
-            if (id != tarefa.Id)
+
+            if (tarefa == null)
             {
-                return NotFound();
+                return NotFound("Id invalido");
             }
 
             return Ok(tarefa);
         }
 
         [HttpPost]
-        [Route("tarefa/save")]
+        [Route("CriarTarefa")]
         public async Task<IActionResult> SaveAsync([FromBody] Tarefa tarefa)
         {
             if (tarefa == null)
@@ -48,6 +49,20 @@ namespace API.Controllers
             int response = await _tarefaRepo.SaveAsync(tarefa);
 
             return Ok(response);
+        }
+
+        [HttpPut]
+        [Route("AtualizarTarefa")]
+        public async Task<IActionResult> UpdateteTarefaAsync([FromBody] Tarefa tarefa)
+        {
+            var response = await _tarefaRepo.UpdateTarefaAsync(tarefa);
+
+            if (response == 0)
+            {
+                return NotFound("Id invalido");
+            }
+
+            return Ok(tarefa);
         }
     }
 }

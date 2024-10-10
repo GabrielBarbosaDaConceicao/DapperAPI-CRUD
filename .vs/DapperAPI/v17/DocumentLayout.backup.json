@@ -32,9 +32,22 @@
               "RelativeDocumentMoniker": "API\\Controllers\\TarefasController.cs",
               "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Controllers\\TarefasController.cs*",
               "RelativeToolTip": "API\\Controllers\\TarefasController.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAywDEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAADwvzsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:22:37.573Z",
+              "WhenOpened": "2024-10-10T11:30:31.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repositories\\TarefaRepository.cs",
+              "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs",
+              "RelativeToolTip": "API\\Repositories\\TarefaRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:32:46.196Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +58,9 @@
               "RelativeDocumentMoniker": "API\\Repositories\\Interfaces\\ITarefaRepository.cs",
               "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\Interfaces\\ITarefaRepository.cs",
               "RelativeToolTip": "API\\Repositories\\Interfaces\\ITarefaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:07:00.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarefaRepository.cs",
-              "DocumentMoniker": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs",
-              "RelativeDocumentMoniker": "API\\Repositories\\TarefaRepository.cs",
-              "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs*",
-              "RelativeToolTip": "API\\Repositories\\TarefaRepository.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:05:12.45Z",
+              "WhenOpened": "2024-10-10T11:31:50.283Z",
               "EditorCaption": ""
             }
           ]

@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Temp\\source\\DapperAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|c:\\temp\\source\\dapperapi\\api\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|solutionrelative:api\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|c:\\temp\\source\\dapperapi\\api\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|solutionrelative:api\\repositories\\tarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|c:\\temp\\source\\dapperapi\\api\\repositories\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45BB2FCA-11D8-4CCA-89BE-FAF38996A9FA}|API\\API.csproj|solutionrelative:api\\repositories\\interfaces\\itarefarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TarefasController.cs",
+              "DocumentMoniker": "C:\\Temp\\source\\DapperAPI\\API\\Controllers\\TarefasController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\TarefasController.cs",
+              "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Controllers\\TarefasController.cs",
+              "RelativeToolTip": "API\\Controllers\\TarefasController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAADwvzsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:30:31.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TarefaRepository.cs",
+              "DocumentMoniker": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repositories\\TarefaRepository.cs",
+              "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\TarefaRepository.cs",
+              "RelativeToolTip": "API\\Repositories\\TarefaRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:32:46.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITarefaRepository.cs",
+              "DocumentMoniker": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\Interfaces\\ITarefaRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repositories\\Interfaces\\ITarefaRepository.cs",
+              "ToolTip": "C:\\Temp\\source\\DapperAPI\\API\\Repositories\\Interfaces\\ITarefaRepository.cs",
+              "RelativeToolTip": "API\\Repositories\\Interfaces\\ITarefaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:31:50.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
