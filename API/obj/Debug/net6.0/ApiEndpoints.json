@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "API.Controllers.TarefasController",
+    "Method": "GetTarefaByIdAsync",
+    "RelativePath": "api/v1/tarefa/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API.Domain.Entitites.Tarefa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TarefasController",
+    "Method": "SaveAsync",
+    "RelativePath": "api/v1/tarefa/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefa",
+        "Type": "API.Domain.Entitites.Tarefa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.TarefasController",
+    "Method": "GetTarefasAsync",
+    "RelativePath": "api/v1/tarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
